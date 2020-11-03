@@ -50,6 +50,8 @@ if __name__ == "__main__":
     runBuild(dirs, target_name)
     if args.preview:
         runPreview(dirs, target_name)
+        
+    print("finished")
 
     
     

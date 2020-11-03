@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  23 OCT 2020 07:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  27 OCT 2020 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/xiaoli/Documents/Apps/Pycharm/ecs289g_tsne_intro/pres.tex
-(/Users/xiaoli/Documents/Apps/Pycharm/ecs289g_tsne_intro/pres.tex
+**/Users/xiaoli/Documents/Codes/Jupyter_Code/ecs289g_tsne_intro/pres.tex
+(/Users/xiaoli/Documents/Codes/Jupyter_Code/ecs289g_tsne_intro/pres.tex
 LaTeX2e <2019-10-01> patch level 3
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
@@ -1238,39 +1238,75 @@ Package pdftex.def Info: images/equation4.png  used on input line 72.
 
  <./images/equation2.png> <./images/equation3.png> <./images/equation1.png> <./
 images/equation4.png>]
-<images/figure1.png, id=79, 902.37125pt x 260.975pt>
+<images/figure1.png, id=81, 902.37125pt x 260.975pt>
 File: images/figure1.png Graphic file (type png)
 <use images/figure1.png>
-Package pdftex.def Info: images/figure1.png  used on input line 92.
+Package pdftex.def Info: images/figure1.png  used on input line 91.
 (pdftex.def)             Requested size: 279.1952pt x 80.7448pt.
  [3
 
  <./images/figure1.png>]
-File: images/equation4.png Graphic file (type png)
-<use images/equation4.png>
-Package pdftex.def Info: images/equation4.png  used on input line 124.
-(pdftex.def)             Requested size: 101.36427pt x 26.91629pt.
-<images/equation5.png, id=106, 264.99pt x 71.26625pt>
-File: images/equation5.png Graphic file (type png)
-<use images/equation5.png>
-Package pdftex.def Info: images/equation5.png  used on input line 124.
-(pdftex.def)             Requested size: 100.08264pt x 26.91629pt.
-<images/equation6.png, id=107, 484.81125pt x 68.255pt>
-File: images/equation6.png Graphic file (type png)
-<use images/equation6.png>
-Package pdftex.def Info: images/equation6.png  used on input line 124.
-(pdftex.def)             Requested size: 191.18394pt x 26.91629pt.
+<images/figure5.png, id=108, 1170.3725pt x 345.29pt>
+File: images/figure5.png Graphic file (type png)
+<use images/figure5.png>
+Package pdftex.def Info: images/figure5.png  used on input line 106.
+(pdftex.def)             Requested size: 273.68033pt x 80.7448pt.
  [4
 
+ <./images/figure5.png>]
+File: images/equation4.png Graphic file (type png)
+<use images/equation4.png>
+Package pdftex.def Info: images/equation4.png  used on input line 137.
+(pdftex.def)             Requested size: 101.36427pt x 26.91629pt.
+<images/equation5.png, id=135, 264.99pt x 71.26625pt>
+File: images/equation5.png Graphic file (type png)
+<use images/equation5.png>
+Package pdftex.def Info: images/equation5.png  used on input line 137.
+(pdftex.def)             Requested size: 100.08264pt x 26.91629pt.
+<images/equation6.png, id=136, 484.81125pt x 68.255pt>
+File: images/equation6.png Graphic file (type png)
+<use images/equation6.png>
+Package pdftex.def Info: images/equation6.png  used on input line 137.
+(pdftex.def)             Requested size: 191.18394pt x 26.91629pt.
+
+[5
+
  <./images/equation5.png> <./images/equation6.png>]
-<images/figure4.png, id=135, 569.12625pt x 425.59pt>
+
+LaTeX Warning: Command \textless invalid in math mode on input line 157.
+
+LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
+157.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 157.
+
+LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
+(Font)              using `OML/cmm/m/it' instead
+(Font)              for symbol `textless' on input line 157.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 157.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 157.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 157.
+
+<images/figure4.png, id=165, 1150.2975pt x 606.265pt>
 File: images/figure4.png Graphic file (type png)
 <use images/figure4.png>
-Package pdftex.def Info: images/figure4.png  used on input line 139.
-(pdftex.def)             Requested size: 215.9576pt x 161.48961pt.
- [5
+Package pdftex.def Info: images/figure4.png  used on input line 157.
+(pdftex.def)             Requested size: 306.40707pt x 161.48961pt.
+[6
 
- <./images/figure4.png>] [6
+ <./images/figure4.png>]
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 180.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 180.
+
+[7
 
 ]
 \tf@nav=\write6
@@ -1282,34 +1318,41 @@ Package pdftex.def Info: images/figure4.png  used on input line 139.
 \tf@snm=\write8
 \openout8 = `pres.snm'.
 
-
-
+ 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
 (./pres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `pres.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 31069 strings out of 492162
- 621082 string characters out of 6125293
- 659692 words of memory out of 5000000
- 34925 multiletter control sequences out of 15000+600000
+ 31089 strings out of 492162
+ 621365 string characters out of 6125293
+ 659693 words of memory out of 5000000
+ 34940 multiletter control sequences out of 15000+600000
  539886 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,14n,68p,847b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb>
-Output written on pres.pdf (6 pages, 351302 bytes).
+ 58i,14n,68p,853b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b>
+Output written on pres.pdf (7 pages, 445655 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

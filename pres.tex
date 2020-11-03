@@ -28,7 +28,7 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE)
     \item a variation of Stochastic Neighbor Embedding (SNE)
   \end{itemize}
 
-Main contributions
+Main differences
 
    \begin{itemize}
     \item a \textbf{symmetrized SNE} cost function with simpler gradients
@@ -49,22 +49,22 @@ Main contributions
 
     \textbf{Using joint probability distribution rather than conditional probability distribution}
 
-    the pairwise similarities in the high-dimensional space pij:
+    the pairwise similarities in the high-dimensional space $p_{ij}$:
     \begin{figure}
         \centering
         \includegraphics[height=0.1\textheight]{images/equation2.png}
     \end{figure}
-    the pairwise similarities in low-dimensional map qij:
+    the pairwise similarities in low-dimensional map $q_{ij}$:
     \begin{figure}
         \centering
         \includegraphics[height=0.1\textheight]{images/equation3.png}
     \end{figure}
-    The cost function (Kullback-Leibler divergences):
+    the cost function (Kullback-Leibler divergences):
     \begin{figure}
         \centering
         \includegraphics[height=0.1\textheight]{images/equation1.png}
     \end{figure}
-    Therefore, the gradient of symmetric SNE will be optimized:
+    therefore, the gradient of symmetric SNE will be optimized:
     \begin{figure}
         \centering
         \includegraphics[height=0.1\textheight]{images/equation4.png}
@@ -82,15 +82,28 @@ Main contributions
   \frametitle{The Crowding Problem}
   \framesubtitle{}
 
-the area of the two-dimensional map that is available to accommodate moderately distant datapoints will \textbf{not be nearly large enough} compared with the area available to accommodate nearby datapoints.
+The area of the two-dimensional map that is available to accommodate moderately distant datapoints will \textbf{not be nearly large enough} compared with the area available to accommodate nearby datapoints.
 
     \begin{figure}
         \centering
         \includegraphics[height=0.3\textheight]{images/figure1.png}
     \end{figure}
-
 \end{frame}
 
+\begin{frame}
+    \frametitle{The Crowding Problem}
+    \framesubtitle{}
+    
+    The volume of a sphere centered on datapoint i scales as $r^{m}$, when m increases: 
+    \begin{itemize}
+        \item a uniform distribtion around i = an uneven distribtion of distance to i
+        \item dimensionality reduction may cause the crowding problem
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[height=0.3\textheight]{images/figure5.png}
+    \end{figure}
+\end{frame}
 
 % 
 % 
@@ -131,6 +144,11 @@ The gradient of the Kullback-Leibler divergence:
 %
 \begin{frame}
   \frametitle{Differences of t-dis and norm-dis}
+      Student t-distribution: 
+      \begin{itemize}
+        \item Greater similarity $\Longrightarrow$ distance$_t$ $\textless$ distance$_{norm}$
+        \item Smaller similarity $\Longrightarrow$ distance$_t$ $\textgreater$ distance$_{norm}$
+      \end{itemize}
     \begin{figure}
         \centering
         \includegraphics[height=0.6\textheight]{images/figure4.png}
@@ -148,7 +166,7 @@ The gradient of the Kullback-Leibler divergence:
   \frametitle{Weekness of t-SNE}
     Dimensionality reduction for other purposes
     \begin{itemize}
-    \item CANNOT be extrapolated to d>3 dimensions
+    \item CANNOT be extrapolated to d$\textgreater$3 dimensions
     \end{itemize}
     Curse of intrinsic dimensionality
     \begin{itemize}
